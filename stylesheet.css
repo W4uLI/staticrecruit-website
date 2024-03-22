@@ -1,0 +1,53 @@
+﻿body {
+    background-color: #121212;
+    color: #ffffff; /* Set text color to white for better contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body fill the entire viewport height */
+}
+
+#welcome-message {
+    text-align: center; /* Center text inside the div */
+    max-width: 500px; /* Increase the maximum width of the div */
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 10px; /* Add rounded corners for a nicer appearance */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+}
+
+#welcome-message h1 {
+    font-size: 24px; /* Increase font size for the heading */
+}
+
+#welcome-message p {
+    font-size: 18px; /* Increase font size for the paragraph */
+}
+
+#welcome-message input[type="text"] {
+    width: calc(100% - 20px); /* Adjust width to fill the div minus padding */
+    padding: 10px; /* Add some padding for spacing */
+    margin-bottom: 10px; /* Add some space below the input field */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+#welcome-message input[type="text"]#fflogs-link-input {
+    width: calc(100% - 20px); /* Adjust width to fill the div minus padding */
+    padding: 10px; /* Add some padding for spacing */
+    margin-bottom: 10px; /* Add some space below the input field */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+#welcome-message button {
+    padding: 10px 20px; /* Add padding to the button for better clickability */
+    font-size: 16px; /* Increase font size for the button text */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+#welcome-message button:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+}
